@@ -15,10 +15,12 @@ document.getElementById("addBtn").addEventListener("click", function () {
   let priceText = document.getElementById("price").value;
 
   let row = {
-    item: itemText,
     quantity: Number(qtyText),
     price: Number(priceText)
   };
+  if (itemText !== "") {
+    row.item = itemText;
+  }
   row.line = row.quantity * row.price;
   row.note = priceText + qtyText;
 
