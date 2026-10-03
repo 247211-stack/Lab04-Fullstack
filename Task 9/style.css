@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 0; }
+header { background: green; padding: 10px 20px; }
+header h1 { color: white; margin: 0; }
+header a { color: white; margin-right: 15px; }
+main { padding: 20px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid black; padding: 6px; }
+footer { padding: 10px 20px; border-top: 1px solid gray; margin-top: 20px; }
